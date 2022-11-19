@@ -8,7 +8,7 @@ const host = 'localhost';
 
 const app = express();
 
-// MySQL bağlantısı, sürüm 8 için çalışmadı
+//! MySQL bağlantısı, sürüm 8 için çalışmadı
 /* const database = mysql.createConnection({
     port: 3306,
     host: 'localhost',
