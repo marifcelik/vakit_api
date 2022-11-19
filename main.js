@@ -4,7 +4,6 @@ const pg = require('pg');
 // const mysql = require('mysql')
 
 const PORT = process.env.PORT || 5000;
-const HOST = process.env.HOST
 
 const app = express();
 
@@ -77,4 +76,4 @@ app.get('/vakit/:il', async (req, res) => {
         })
 })
 
-app.listen(PORT, () => console.log(`${HOST}:${PORT} dinleniyor...`));
+app.listen(PORT, () => console.log(`host:${PORT} dinleniyor...`));
