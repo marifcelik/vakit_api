@@ -3,7 +3,7 @@ const pg = require('pg');
 // const axios = require('axios').default; //fetch api kullanılabilir
 // const mysql = require('mysql')
 
-const port = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 const HOST = process.env.HOST
 
 const app = express();
